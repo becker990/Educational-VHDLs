@@ -3,4 +3,24 @@
 	These are a collection of hardware devices from the 70's-80's computers,
 they are made for use with Altera boards but without the use of megafunctions 
 of any FPGA vendors, so they are implemented in hardware-like way.
-	EDUCATIONAL POURPOSES
+	EDUCATIONAL POURPOSES i wrote them at class.
+
+        Description of each:
+template.vhd    -A template default VHDL with all the abstractions.
+half_adder.vhd  -A half adder duh.
+full_adder.vhd  -A full adder duh.
+ripple.vhd      -Ripple-Carry adder, 4bits i think.
+ctrl_ula.vhd    -Simple Logical-Arithmetical control unit.
+ula.vhd         -LAU global unit.
+dec_bcd7.vhd    -Type A decoder: 4bits -> 7segment.
+dec3_8.vhd      -Type B decoder: 4bits -> 7segment.    
+mux2_1.vhd      -1bit 2to1 simple multiplexer.
+mux 4 bits.vhd  -1bit 4to1 multiplexer.
+sr.vhd          -Right shifter.
+sl.vhd          -Left shifter.
+
+
+
+
+
+
